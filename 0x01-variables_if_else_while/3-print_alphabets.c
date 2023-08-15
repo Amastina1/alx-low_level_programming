@@ -1,4 +1,4 @@
-#include <stdio.h>
+  #include <stdio.h>
 
 /**
  *main - main function
@@ -8,12 +8,13 @@
 
 int main(void)
 {
-	char i;
+	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i;
 
-	  for (i = 'a'; i <= 'z'; i++)
-		  putchar(i);
-	  for (i = 'A'; i <= 'Z'; i++)
-		  putchar(i);
-	  putchar('\n');
-	  return (0);
+	for (i = 0; i < 52; i++)
+	{
+		putchar(alp[i]);
+	}
+	putchar('\n');
+	return (0);
 }
