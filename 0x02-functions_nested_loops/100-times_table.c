@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * print_times_table - prints the time table of the input starting with 0
