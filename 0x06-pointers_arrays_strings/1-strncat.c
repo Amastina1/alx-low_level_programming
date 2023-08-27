@@ -2,7 +2,7 @@
 
 /**
  * _strncat - concatenates two strings
- * @src: The soure of strings
+ * @src: The source of strings
  * @dest: The destination of the string
  * @n: The length of int
  *
@@ -12,7 +12,7 @@ char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
 
-	for (i = 0; dest[i] != '0'; i++)
+	for (i = 0; dest[i] != '\0'; i++)
 	{
 		continue;
 	}
